@@ -1,0 +1,30 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- These settings headers are only used on tablets. -->
+
+    <header
+        android:fragment="software.blackswork.agdcarb.SettingsActivity$BolusPreferenceFragment"
+        android:icon="@drawable/ic_opacity_black_24dp"
+        android:title="Bolus Ratio" />
+
+    <header
+        android:fragment="software.blackswork.agdcarb.SettingsActivity$FSIPreferenceFragment"
+        android:icon="@drawable/ic_colorize_black_24dp"
+        android:title="@string/pref_header_general" />
+
+    <header
+        android:fragment="software.blackswork.agdcarb.SettingsActivity$GeneralPreferenceFragment"
+        android:icon="@drawable/ic_info_black_24dp"
+        android:title="@string/pref_header_general" />
+
+  <!--  <header
+        android:fragment="software.blackswork.agdcarb.SettingsActivity$NotificationPreferenceFragment"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/pref_header_notifications" />
+
+    <header
+        android:fragment="software.blackswork.agdcarb.SettingsActivity$DataSyncPreferenceFragment"
+        android:icon="@drawable/ic_sync_black_24dp"
+        android:title="@string/pref_header_data_sync" /> -->
+
+</preference-headers>

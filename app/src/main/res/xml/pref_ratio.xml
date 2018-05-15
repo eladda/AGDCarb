@@ -1,0 +1,172 @@
+<PreferenceScreen xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/pref_Event1_title">
+        <EditTextPreference
+            android:capitalize="words"
+            android:contentDescription="Set here"
+            android:defaultValue="Colazione"
+            android:inputType="text"
+            android:key="Event1_Name"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="@string/pref_event_summary"
+            android:title="@string/pref_Event_name" />
+        <EditTextPreference
+            android:capitalize="words"
+            android:contentDescription="Set here"
+            android:defaultValue="10.0"
+            android:inputType="numberDecimal"
+            android:key="Event1_Rate"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:singleLineTitle="true"
+            android:summary="@string/pref_Bolus_summary"
+            android:title="@string/pref_Bolus_Descr" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_Event2_title">
+        <EditTextPreference
+            android:capitalize="words"
+            android:contentDescription="Set here"
+            android:defaultValue="Pranzo"
+            android:inputType="text"
+            android:key="Event2_Name"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="@string/pref_event_summary"
+            android:title="@string/pref_Event_name" />
+        <EditTextPreference
+            android:capitalize="words"
+            android:contentDescription="Set here"
+            android:defaultValue="10.0"
+            android:inputType="numberDecimal"
+            android:key="Event2_Rate"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:singleLineTitle="true"
+            android:summary="@string/pref_Bolus_summary"
+            android:title="@string/pref_Bolus_Descr" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_Event3_title">
+        <EditTextPreference
+            android:capitalize="words"
+            android:contentDescription="Set here"
+            android:defaultValue="Merenda"
+            android:inputType="text"
+            android:key="Event3_Name"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="@string/pref_event_summary"
+            android:title="@string/pref_Event_name" />
+        <EditTextPreference
+            android:capitalize="words"
+            android:contentDescription="Set here"
+            android:defaultValue="10.0"
+            android:inputType="numberDecimal"
+            android:key="Event3_Rate"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:singleLineTitle="true"
+            android:summary="@string/pref_Bolus_summary"
+            android:title="@string/pref_Bolus_Descr" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_Event4_title">
+        <EditTextPreference
+            android:capitalize="words"
+            android:contentDescription="Set here"
+            android:defaultValue="Cena"
+            android:inputType="text"
+            android:key="Event4_Name"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="@string/pref_event_summary"
+            android:title="@string/pref_Event_name" />
+        <EditTextPreference
+            android:capitalize="words"
+            android:contentDescription="Set here"
+            android:defaultValue="10.0"
+            android:inputType="numberDecimal"
+            android:key="Event4_Rate"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:singleLineTitle="true"
+            android:summary="@string/pref_Bolus_summary"
+            android:title="@string/pref_Bolus_Descr" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_Event5_title">
+        <EditTextPreference
+            android:capitalize="words"
+            android:contentDescription="Set here"
+            android:defaultValue="none"
+            android:inputType="text"
+            android:key="Event5_Name"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="@string/pref_event_summary"
+            android:title="@string/pref_Event_name" />
+        <EditTextPreference
+            android:capitalize="words"
+            android:contentDescription="Set here"
+            android:defaultValue="10.0"
+            android:inputType="numberDecimal"
+            android:key="Event5_Rate"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:singleLineTitle="true"
+            android:summary="@string/pref_Bolus_summary"
+            android:title="@string/pref_Bolus_Descr" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_Event6_title">
+        <EditTextPreference
+            android:capitalize="words"
+            android:contentDescription="Set here"
+            android:defaultValue="none"
+            android:inputType="text"
+            android:key="Event6_Name"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="@string/pref_event_summary"
+            android:title="@string/pref_Event_name" />
+        <EditTextPreference
+            android:capitalize="words"
+            android:contentDescription="Set here"
+            android:defaultValue="10.0"
+            android:inputType="numberDecimal"
+            android:key="Event6_Rate"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:singleLineTitle="true"
+            android:summary="@string/pref_Bolus_summary"
+            android:title="@string/pref_Bolus_Descr" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_Event7_title">
+        <EditTextPreference
+            android:capitalize="words"
+            android:contentDescription="Set here"
+            android:defaultValue="none"
+            android:inputType="text"
+            android:key="Event7_Name"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="@string/pref_event_summary"
+            android:title="@string/pref_Event_name" />
+        <EditTextPreference
+            android:capitalize="words"
+            android:contentDescription="Set here"
+            android:defaultValue="10.0"
+            android:inputType="numberDecimal"
+            android:key="Event7_Rate"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:singleLineTitle="true"
+            android:summary="@string/pref_Bolus_summary"
+            android:title="@string/pref_Bolus_Descr" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
